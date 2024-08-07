@@ -17,11 +17,11 @@
             <div class="left">Amitoj's Portfolio</div>
             <div class="right">
                 <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Projects</li>
-                    <li>Services</li>
-                    <li>Contact</li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Contact</a></li>
                 </ul>
             </div>
         </nav>
@@ -29,16 +29,79 @@
     <main>
         <section class="firstsection">
             <div class="leftsection">
-                Hey! My Name Is<span class="white"> Amitoj </span> 
+                Hey! My Name Is<span class="white"> Amitoj </span>
                 <div>
-                    And I Am A <span class="white">Web Developer</span>
+                    And I Am A
+                    <span id="element"></span>
                 </div>
             </div>
             <div class="rightsection">
-               <img src="web3.png" >
+                <img src="web.jpg">
             </div>
         </section>
+
+        <hr class="hr" color="purple">
+
+        <section class="secondsection">
+            <h1>PROJECTS</h1>
+            <div class="box">
+                <div class="vertical">
+                    <div class="vertical-title">
+                        UNIFIND (July 24 - Aug 24)
+                    </div>
+                    <div class="vertical-desc">
+                        A user-friendly web tool that helps JEE Main aspirants estimate their chances of getting into
+                        various colleges after providing their Rank and Quota.
+                        Aiding in their decision-making process during the counseling and application phase.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="vertical-title">
+                        CALCULATOR (Aug 24)
+                    </div>
+                    <div class="vertical-desc">
+                        This project involves creating a calculator using HTML, CSS, and JavaScript. The calculator provides basic arithmetic operations with a user-friendly interface, enabling real-time calculation and display of results.
+                    
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="vertical-title">
+                        LANDING PAGE (AUG 24)
+                    </div>
+                    <div class="vertical-desc">
+                        This project creates a landing page using HTML and CSS. The page features a visually appealing design with a clear call to action, showcasing key information and engaging users effectively.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="vertical-title">
+                        PORTFOLIO (Aug 24)
+                    </div>
+                    <div class="vertical-desc">
+                        This project involves developing a portfolio website using HTML, CSS, and JavaScript. The site showcases personal projects, skills, and experience in a visually appealing and interactive manner, providing an engaging platform for potential employers or clients.
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
     </main>
+    <footer>
+        <div class="footer">
+            <div class="first">
+                amitoj
+            </div>
+            <div class="second"></div>
+            <div class="third"></div>
+            <div class="fourth"></div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer.', ' DSA Enthusiast.', 'System Designer.'],
+            typeSpeed: 100,
+        });
+    </script>
 
 
 </body>

@@ -29,29 +29,102 @@ nav ul li {
     margin: 0 23px 5px;
 }
 
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+
+    color: black;
+}
+
+
 .left {
     font-size: 1.3rem;
 
 }
-.firstsection{
+
+.firstsection {
     display: flex;
     justify-content: space-around;
     margin: 80px 0;
 }
-.firstsection > div{
+
+.firstsection>div {
     width: 30%;
 }
-.rightsection img{
-    width: 80%;
+
+.rightsection img {
+    width: 100%;
     margin: 50px;
 
 }
-.leftsection{
+
+.leftsection {
     font-size: 3rem;
-    margin: 90px 0;
+    margin: 80px 0;
 }
-.white{
+
+.white {
     color: whitesmoke;
     font-style: italic;
     font-style: oblique;
+}
+
+#element {
+    color: white;
+}
+
+.secondsection {
+    max-width: 80vw;
+    margin: auto;
+}
+
+.hr {
+    margin: 70px;
+
+
+}
+
+.secondsection h1 {
+    font-size: 3.5rem;
+}
+
+.box {
+    background-color: gold;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.vertical {
+    height: 93px;
+    width: 1px;
+    background-color: aqua;
+    margin: 0 120px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 92px;
+    color:gold ;
+    width: 150px;
+    font-size: 20px;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 100px;
+    width: 150px;
+    font-size: 10px;
+    color: whitesmoke;
+}
+footer{
+    background-color: purple;
+    height:230px;
+}
+.footer{
+    display: flex;
 }
